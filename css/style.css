@@ -980,12 +980,12 @@ button.print-button:hover .print-icon::after {
   .ziplabel .text-wrapper {
 	position: fixed;
 	width: 30px;
-	top: 331px;
-	left: 303px;
+	top: 335px;
+	left: 1118px;
 	font-family: "Spartan-Bold", Helvetica;
 	font-weight: 700;
 	color: #616042;
-	font-size: 18px;
+	font-size: 38px;
 	text-align: center;
 	letter-spacing: 0;
 	line-height: normal;
@@ -1001,10 +1001,10 @@ button.print-button:hover .print-icon::after {
   
   .zipbox .rectangle {
 	position: fixed;
-	width: 68px;
-	height: 20px;
-	top: 359px;
-	left: 282px;
+	width: 135px;
+	height: 42px;
+	top: 338px;
+	left: 1189px;
 	background-color: #92917b;
   }
 
@@ -1017,12 +1017,12 @@ button.print-button:hover .print-icon::after {
   .ziptextlabel .text-wrapper {
 	position: fixed;
 	width: 26px;
-	top: 361px;
-	left: 300px;
+	top: 342px;
+	left: 1219px;
 	font-family: "Inter-Regular", Helvetica;
 	font-weight: 400;
 	color: #ffffff;
-	font-size: 14px;
+	font-size: 32px;
 	letter-spacing: 0;
 	line-height: normal;
   }
@@ -1035,10 +1035,10 @@ button.print-button:hover .print-icon::after {
   
   .onebox .rectangle {
 	position: fixed;
-	width: 64px;
-	height: 18px;
-	top: 390px;
-	left: 282px;
+	width: 115px;
+	height: 34px;
+	top: 419px;
+	left: 912px;
 	background-color: #92917b;
   }
 
@@ -1051,12 +1051,12 @@ button.print-button:hover .print-icon::after {
   .meijerlabel .text-wrapper {
 	position: fixed;
 	width: 26px;
-	top: 390px;
-	left: 297px;
+	top: 417px;
+	left: 929px;
 	font-family: "Inter-Regular", Helvetica;
 	font-weight: 400;
 	color: #ffffff;
-	font-size: 14px;
+	font-size: 31px;
 	letter-spacing: 0;
 	line-height: normal;
   }
