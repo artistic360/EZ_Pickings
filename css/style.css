@@ -970,7 +970,96 @@ button.print-button:hover .print-icon::after {
 
 
 
+  /* CSS for zipcode text */
 
+  .ziplabel {
+	width: 30px;
+	height: 13px;
+  }
+  
+  .ziplabel .text-wrapper {
+	position: fixed;
+	width: 30px;
+	top: 331px;
+	left: 303px;
+	font-family: "Spartan-Bold", Helvetica;
+	font-weight: 700;
+	color: #616042;
+	font-size: 18px;
+	text-align: center;
+	letter-spacing: 0;
+	line-height: normal;
+	white-space: nowrap;
+  }
+
+
+/* CSS for zip Button */
+  .zipbox {
+	width: 50px;
+	height: 13px;
+  }
+  
+  .zipbox .rectangle {
+	position: fixed;
+	width: 68px;
+	height: 20px;
+	top: 359px;
+	left: 282px;
+	background-color: #92917b;
+  }
+
+/* CSS for zip text */
+  .ziptextlabel {
+	width: 26px;
+	height: 10px;
+  }
+  
+  .ziptextlabel .text-wrapper {
+	position: fixed;
+	width: 26px;
+	top: 361px;
+	left: 300px;
+	font-family: "Inter-Regular", Helvetica;
+	font-weight: 400;
+	color: #ffffff;
+	font-size: 14px;
+	letter-spacing: 0;
+	line-height: normal;
+  }
+
+/* CSS for 1box */
+.onebox {
+	width: 50px;
+	height: 13px;
+  }
+  
+  .onebox .rectangle {
+	position: fixed;
+	width: 64px;
+	height: 18px;
+	top: 390px;
+	left: 282px;
+	background-color: #92917b;
+  }
+
+  /* CSS for meijer */
+  .meijerlabel {
+	width: 26px;
+  height: 10px;
+}
+  
+  .meijerlabel .text-wrapper {
+	position: fixed;
+	width: 26px;
+	top: 390px;
+	left: 297px;
+	font-family: "Inter-Regular", Helvetica;
+	font-weight: 400;
+	color: #ffffff;
+	font-size: 14px;
+	letter-spacing: 0;
+	line-height: normal;
+  }
 
 
 
