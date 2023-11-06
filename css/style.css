@@ -563,19 +563,18 @@
   }
 
 /* CSS for 1box */
-  .onebox {
-	width: 300px;
-	height: 370px;
+.onebox {
+	width: 50px;
+	height: 13px;
   }
   
-  .onebox .list {
+  .onebox .rectangle {
 	position: fixed;
-	width: 57px;
+	width: 64px;
 	height: 18px;
-	top: 0;
-	left: 0;
-	background-color: #fffffa;
-	border-radius: 15px;
+	top: 390px;
+	left: 282px;
+	background-color: #92917b;
   }
 
   /* CSS for meijer */
@@ -587,182 +586,17 @@
   .meijerlabel .text-wrapper {
 	position: fixed;
 	width: 26px;
-	top: 0;
-	left: 0;
+	top: 390px;
+	left: 297px;
 	font-family: "Inter-Regular", Helvetica;
 	font-weight: 400;
 	color: #ffffff;
-	font-size: 8px;
+	font-size: 14px;
 	letter-spacing: 0;
 	line-height: normal;
   }
 
-/* CSS for 2box */
-  .twobox {
-	width: 50px;
-	height: 13px;
-  }
-  
-  .twobox .rectangle {
-	position: fixed;
-	width: 57px;
-	height: 18px;
-	top: 0;
-	left: 0;
-	background-color: #92917b;
-  }
 
- 
-
-/* CSS for 3box */
-.threebox {
-	width: 50px;
-	height: 13px;
-  }
-  
-  .threebox .rectangle {
-	position: fixed;
-	width: 57px;
-	height: 18px;
-	top: 0;
-	left: 0;
-	background-color: #92917b;
-  }
-
- /* CSS for target text */
- .targetlabel {
-	width: 26px;
-	height: 10px;
-  }
-  
-  .targetlabel .text-wrapper {
-	position: fixed;
-	width: 26px;
-	top: 0;
-	left: 0;
-	font-family: "Inter-Regular", Helvetica;
-	font-weight: 400;
-	color: #ffffff;
-	font-size: 8px;
-	letter-spacing: 0;
-	line-height: normal;
-  }
-
- 
-/* CSS for 4box */
-.fourbox {
-	width: 50px;
-	height: 13px;
-  }
-  
-  .fourbox .rectangle {
-	position: fixed;
-	width: 57px;
-	height: 18px;
-	top: 0;
-	left: 0;
-	background-color: #92917b;
-  }
- /* CSS for walmart text */
- .walmartlabel {
-	width: 26px;
-	height: 10px;
-  }
-  
-  .walmartlabel .text-wrapper {
-	position: fixed;
-	width: 26px;
-	top: 0;
-	left: 0;
-	font-family: "Inter-Regular", Helvetica;
-	font-weight: 400;
-	color: #ffffff;
-	font-size: 6px;
-	letter-spacing: 0;
-	line-height: normal;
-  }
-
-  
-
-
-/* CSS for 5box */
-.fivebox {
-	width: 50px;
-	height: 13px;
-  }
-  
-  .fivebox .rectangle {
-	position: fixed;
-	width: 57px;
-	height: 18px;
-	top: 0;
-	left: 0;
-	background-color: #92917b;
-  }
-
-
-/* CSS for 6box */
-.sixbox {
-	width: 50px;
-	height: 13px;
-  }
-  
-  .sixbox .rectangle {
-	position: fixed;
-	width: 57px;
-	height: 18px;
-	top: 0;
-	left: 0;
-	background-color: #92917b;
-  }
-
-
-/* CSS for 7box */
-.sevenbox {
-	width: 50px;
-	height: 13px;
-  }
-  
-  .sevenbox .rectangle {
-	position: fixed;
-	width: 57px;
-	height: 18px;
-	top: 0;
-	left: 0;
-	background-color: #92917b;
-  }
-
-
-/* CSS for 8box */
-.eightbox {
-	width: 50px;
-	height: 13px;
-  }
-  
-  .eightbox .rectangle {
-	position: fixed;
-	width: 57px;
-	height: 18px;
-	top: 0;
-	left: 0;
-	background-color: #92917b;
-  }
-
-
-/* CSS for 9box */
-.ninebox {
-	width: 50px;
-	height: 13px;
-  }
-  
-  .ninebox .rectangle {
-	position: fixed;
-	width: 57px;
-	height: 18px;
-	top: 636px;
-	left: 285px;
-	background-color: #92917b;
-  }
 
 
 
