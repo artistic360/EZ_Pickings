@@ -220,7 +220,7 @@
   color:var(--fontcolor);
 }
 .input-search::placeholder{
-  color:var(--fontcolor);
+  color:var(--color-secondary);
   font-size: 18px;
   letter-spacing: 2px;
   font-weight: 100;
@@ -236,7 +236,7 @@
   border-radius: 50%;
   position: absolute;
   right: 0px;
-  color:var(--color-primary);
+  color:var(--color-secondary);
   background-color:transparent;
   pointer-events: painted;  
 
@@ -246,32 +246,528 @@
   width: 300px;
   border-radius: 0px;
   background-color: transparent;
-  border-bottom:1px solid var(--fontcolor);
+  border-bottom:1px solid var(--color-secondary);
   transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
 }
 .input-search:focus{
   width: 300px;
   border-radius: 0px;
   background-color: transparent;
-  border-bottom:1px solid var(--fontcolor);
+  border-bottom:1px solid var(--color-secondary);
   transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
 }
 
 /* CSS for main nav */
 
-.box {
+.mainbox {
   width: 100%;
   height: 15%;
 }
 
-.box .main-nav {
+.mainbox .main-nav {
   position: fixed;
-  width: 1366px;
+  width: 100%;
   height: 286px;
   top: 0;
   left: 0;
   background-color: #3e6655;
 }
+
+/* CSS for EZ Pickings */
+
+.label {
+	width: 592px;
+	height: 0px;
+  }
+  
+  .label .text-wrapper {
+	position: fixed;
+	width: 471px;
+	top: 99px;
+	left: 29px;
+	font-family: "Spartan-Bold", Helvetica;
+	font-weight: 700;
+	color: #ffffff;
+	font-size: 38px;
+	letter-spacing: 0;
+	line-height: normal;
+	white-space: nowrap;
+  }
+
+
+
+/* CSS for tree */
+  .image {
+	width: 79px;
+	height: 102px;
+  }
+  
+  .image .tree-icon {
+	position: fixed;
+	width: 96px;
+	height: 124px;
+	top: 42px;
+	left: 233px;
+	object-fit: cover;
+  }
+
+
+/* CSS for carrot */
+.carrot {
+	width: 65px;
+	height: 67px;
+  }
+  
+  .carrot .rectangle {
+	position: fixed;
+	width: 65px;
+	height: 67px;
+	top: 185px;
+	left: 23px;
+	background-color: #fffffa;
+	border-radius: 9px;
+	box-shadow: 0px 4px 4px #00000040;
+  }
+
+
+
+/*CSS for carrot image*/
+
+.carrotimage {
+	width: 63px;
+	height: 82px;
+  }
+  
+  .carrotimage .carrot {
+	position: fixed;
+	width: 63px;
+	height: 82px;
+	top: 179px;
+	left: 27px;
+	object-fit: cover;
+  }
+
+
+/* CSS for meat */
+.meat {
+	width: 65px;
+	height: 67px;
+  }
+  
+  .meat .rectangle {
+	position: fixed;
+	width: 65px;
+	height: 67px;
+	top: 185px;
+	left: 96px;
+	background-color: #fffffa;
+	border-radius: 9px;
+	box-shadow: 0px 4px 4px #00000040;
+  }
+
+/*CSS for meat image*/
+.meatimage {
+	width: 53px;
+	height: 69px;
+  }
+  
+  .meatimage .meat {
+	position: fixed;
+	width: 65px;
+	height: 84px;
+	top: 174px;
+	left: 99px;
+	object-fit: cover;
+  }
+
+
+/* CSS for fish */
+.fish {
+	width: 65px;
+	height: 67px;
+  }
+  
+  .fish .rectangle {
+	position: fixed;
+	width: 65px;
+	height: 67px;
+	top: 185px;
+	left: 169px;
+	background-color: #fffffa;
+	border-radius: 9px;
+	box-shadow: 0px 4px 4px #00000040;
+  }
+
+/*CSS for fish image*/
+.fishimage {
+	width: 69px;
+	height: 89px;
+  }
+  
+  .fishimage .fish {
+	position: fixed;
+	width: 83px;
+	height: 107px;
+	top: 166px;
+	left: 159px;
+	object-fit: cover;
+  }
+
+/* CSS for milk */
+.milk {
+	width: 65px;
+	height: 67px;
+  }
+  
+  .milk .rectangle {
+	position: fixed;
+	width: 65px;
+	height: 67px;
+	top: 185px;
+	left: 243px;
+	background-color: #fffffa;
+	border-radius: 9px;
+	box-shadow: 0px 4px 4px #00000040;
+  }
+
+/*CSS for milk image*/
+.milkimage {
+	width: 49px;
+	height: 63px;
+  }
+  
+  .milkimage .milk-dairy {
+	position: fixed;
+	width: 59px;
+	height: 76px;
+	top: 181px;
+	left: 248px;
+	object-fit: cover;
+  }
+
+
+/* CSS for Grocery list */
+.grocerylabel {
+	width: 234px;
+	height: 0px;
+  }
+  
+  .grocerylabel .text-wrapper {
+	position: fixed;
+	width: 234px;
+	top: 319px;
+	left: 48px;
+	font-family: "Spartan-Bold", Helvetica;
+	font-weight: 700;
+	color: #616042;
+	font-size: 35px;
+	text-align: center;
+	letter-spacing: 0;
+	line-height: normal;
+  }
+
+
+  /* CSS for list */
+  .listlabel {
+	width: 234px;
+	height: 185px;
+  }
+  
+  .listlabel .veggie-veggie {
+	position: fixed;
+	width: 234px;
+	top:386px;
+	left: 30px;
+	font-family: "Spartan-Bold", Helvetica;
+	font-weight: 700;
+	color: #616042;
+	font-size: 23px;
+	letter-spacing: 0;
+	line-height: normal;
+  }
+
+/* CSS for total */
+  .totallabel {
+	width: 162px;
+	height: 62px;
+  }
+  
+  .totallabel .total {
+	position: fixed;
+	width: 162px;
+	top: 696px;
+	left: 107px;
+	font-family: "Spartan-Bold", Helvetica;
+	font-weight: 700;
+	color: #616042;
+	font-size: 26px;
+	letter-spacing: 0;
+	line-height: normal;
+  }
+
+  /* CSS for zipcode text */
+
+  .ziplabel {
+	width: 30px;
+	height: 13px;
+  }
+  
+  .ziplabel .text-wrapper {
+	position: fixed;
+	width: 30px;
+	top: 331px;
+	left: 303px;
+	font-family: "Spartan-Bold", Helvetica;
+	font-weight: 700;
+	color: #616042;
+	font-size: 18px;
+	text-align: center;
+	letter-spacing: 0;
+	line-height: normal;
+	white-space: nowrap;
+  }
+
+
+/* CSS for zip Button */
+  .zipbox {
+	width: 50px;
+	height: 13px;
+  }
+  
+  .zipbox .rectangle {
+	position: fixed;
+	width: 68px;
+	height: 20px;
+	top: 359px;
+	left: 282px;
+	background-color: #92917b;
+  }
+
+/* CSS for zip text */
+  .ziptextlabel {
+	width: 26px;
+	height: 10px;
+  }
+  
+  .ziptextlabel .text-wrapper {
+	position: fixed;
+	width: 26px;
+	top: 361px;
+	left: 300px;
+	font-family: "Inter-Regular", Helvetica;
+	font-weight: 400;
+	color: #ffffff;
+	font-size: 14px;
+	letter-spacing: 0;
+	line-height: normal;
+  }
+
+/* CSS for 1box */
+  .onebox {
+	width: 300px;
+	height: 370px;
+  }
+  
+  .onebox .list {
+	position: fixed;
+	width: 57px;
+	height: 18px;
+	top: 0;
+	left: 0;
+	background-color: #fffffa;
+	border-radius: 15px;
+  }
+
+  /* CSS for meijer */
+  .meijerlabel {
+	width: 26px;
+  height: 10px;
+}
+  
+  .meijerlabel .text-wrapper {
+	position: fixed;
+	width: 26px;
+	top: 0;
+	left: 0;
+	font-family: "Inter-Regular", Helvetica;
+	font-weight: 400;
+	color: #ffffff;
+	font-size: 8px;
+	letter-spacing: 0;
+	line-height: normal;
+  }
+
+/* CSS for 2box */
+  .twobox {
+	width: 50px;
+	height: 13px;
+  }
+  
+  .twobox .rectangle {
+	position: fixed;
+	width: 57px;
+	height: 18px;
+	top: 0;
+	left: 0;
+	background-color: #92917b;
+  }
+
+ 
+
+/* CSS for 3box */
+.threebox {
+	width: 50px;
+	height: 13px;
+  }
+  
+  .threebox .rectangle {
+	position: fixed;
+	width: 57px;
+	height: 18px;
+	top: 0;
+	left: 0;
+	background-color: #92917b;
+  }
+
+ /* CSS for target text */
+ .targetlabel {
+	width: 26px;
+	height: 10px;
+  }
+  
+  .targetlabel .text-wrapper {
+	position: fixed;
+	width: 26px;
+	top: 0;
+	left: 0;
+	font-family: "Inter-Regular", Helvetica;
+	font-weight: 400;
+	color: #ffffff;
+	font-size: 8px;
+	letter-spacing: 0;
+	line-height: normal;
+  }
+
+ 
+/* CSS for 4box */
+.fourbox {
+	width: 50px;
+	height: 13px;
+  }
+  
+  .fourbox .rectangle {
+	position: fixed;
+	width: 57px;
+	height: 18px;
+	top: 0;
+	left: 0;
+	background-color: #92917b;
+  }
+ /* CSS for walmart text */
+ .walmartlabel {
+	width: 26px;
+	height: 10px;
+  }
+  
+  .walmartlabel .text-wrapper {
+	position: fixed;
+	width: 26px;
+	top: 0;
+	left: 0;
+	font-family: "Inter-Regular", Helvetica;
+	font-weight: 400;
+	color: #ffffff;
+	font-size: 6px;
+	letter-spacing: 0;
+	line-height: normal;
+  }
+
+  
+
+
+/* CSS for 5box */
+.fivebox {
+	width: 50px;
+	height: 13px;
+  }
+  
+  .fivebox .rectangle {
+	position: fixed;
+	width: 57px;
+	height: 18px;
+	top: 0;
+	left: 0;
+	background-color: #92917b;
+  }
+
+
+/* CSS for 6box */
+.sixbox {
+	width: 50px;
+	height: 13px;
+  }
+  
+  .sixbox .rectangle {
+	position: fixed;
+	width: 57px;
+	height: 18px;
+	top: 0;
+	left: 0;
+	background-color: #92917b;
+  }
+
+
+/* CSS for 7box */
+.sevenbox {
+	width: 50px;
+	height: 13px;
+  }
+  
+  .sevenbox .rectangle {
+	position: fixed;
+	width: 57px;
+	height: 18px;
+	top: 0;
+	left: 0;
+	background-color: #92917b;
+  }
+
+
+/* CSS for 8box */
+.eightbox {
+	width: 50px;
+	height: 13px;
+  }
+  
+  .eightbox .rectangle {
+	position: fixed;
+	width: 57px;
+	height: 18px;
+	top: 0;
+	left: 0;
+	background-color: #92917b;
+  }
+
+
+/* CSS for 9box */
+.ninebox {
+	width: 50px;
+	height: 13px;
+  }
+  
+  .ninebox .rectangle {
+	position: fixed;
+	width: 57px;
+	height: 18px;
+	top: 636px;
+	left: 285px;
+	background-color: #92917b;
+  }
+
+
+
+
+
 
 /* CSS for Print Button */
 
@@ -369,3 +865,301 @@ button.print-button:hover .print-icon::after {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+@media screen and (width:1366px)  {
+
+/* CSS for EZ Pickings */
+
+.label {
+	width: 592px;
+	height: 64px;
+  }
+  
+  .label .text-wrapper {
+	position: fixed;
+	width: 592px;
+	top: 110px;
+	left: 56px;
+	font-family: "Spartan-Bold", Helvetica;
+	font-weight: 700;
+	color: #ffffff;
+	font-size: 91px;
+	letter-spacing: 0;
+	line-height: normal;
+	white-space: nowrap;
+  }
+
+/* CSS for tree */
+.image {
+	width: 79px;
+	height: 102px;
+  }
+  
+  .image .tree-icon {
+	position: fixed;
+	width: 223px;
+	height: 221px;
+	top: 27px;
+	left: 532px;
+	object-fit: cover;
+  }
+
+
+/* CSS for carrot */  
+  .carrot {
+	width: 65px;
+	height: 67px;
+  }
+  
+  .carrot .rectangle {
+	position: fixed;
+	width: 113px;
+	height: 113px;
+	top: 155px;
+	left: 770px;
+	background-color: #fffffa;
+	border-radius: 9px;
+	box-shadow: 0px 4px 4px #00000040;
+  }
+
+/*CSS for carrot image*/
+
+.carrotimage {
+	width: 63px;
+	height: 82px;
+  }
+  
+  .carrotimage .carrot {
+	position: fixed;
+	width: 121px;
+	height: 123px;
+	top: 156px;
+	left: 777px;
+	object-fit: cover;
+  }
+
+
+
+
+  /* CSS for fish */  
+.fish {
+	width: 65px;
+	height: 67px;
+  }
+  
+  .fish .rectangle {
+	position: fixed;
+	width: 113px;
+	height: 113px;
+	top: 155px;
+	left: 1040px;
+	background-color: #fffffa;
+	border-radius: 9px;
+	box-shadow: 0px 4px 4px #00000040;
+  }
+
+
+
+/*CSS for fish image*/
+.fishimage {
+	width: 96px;
+	height: 145px;
+  }
+  
+  .fishimage .fish {
+	position: fixed;
+	width: 150px;
+	height: 123px;
+	top: 149px;
+	left: 1021px;
+	object-fit: cover;
+  }
+
+
+/* CSS for milk */  
+.milk {
+	width: 65px;
+	height: 67px;
+  }
+  
+  .milk .rectangle {
+	position: fixed;
+	width: 113px;
+	height: 113px;
+	top: 155px;
+	left: 1182px;
+	background-color: #fffffa;
+	border-radius: 9px;
+	box-shadow: 0px 4px 4px #00000040;
+  }
+
+
+  /*CSS for milk image*/
+  .milkimage {
+	width: 79px;
+	height: 0px;
+  }
+  
+  .milkimage .milk-dairy {
+	position: fixed;
+	width: 107px;
+	height: 108px;
+	top: 156px;
+	left: 1189px;
+	object-fit: cover;
+  }
+
+
+  /* CSS for meat */  
+  .meat {
+	width: 65px;
+	height: 67px;
+  }
+  
+  .meat .rectangle {
+	position: fixed;
+	width: 113px;
+	height: 113px;
+	top: 155px;
+	left: 906px;
+	background-color: #fffffa;
+	border-radius: 9px;
+	box-shadow: 0px 4px 4px #00000040;
+  }
+
+  /*CSS for meat image*/
+  .meatimage {
+	width: 86px;
+	height: 112px;
+  }
+  
+  .meatimage .meat {
+	position: fixed;
+	width: 121px;
+	height: 123px;
+	top: 142px;
+	left: 905px;
+	object-fit: cover;
+  }
+
+
+
+/*CSS for catalog label*/
+  .cataloglabel {
+	width: 226px;
+	height: 0px;
+  }
+  
+  .cataloglabel .text-wrapper {
+	position: fixed;
+	width: 226px;
+	top: 70px;
+	left: 908px;
+	font-family: "Spartan-Bold", Helvetica;
+	font-weight: 700;
+	color: #ffffff;
+	font-size: 55px;
+	letter-spacing: 0;
+	line-height: normal;
+  }
+
+
+
+
+/* CSS for Grocery list */
+.grocerylabel {
+	width: 483px;
+	height: 95px;
+  }
+  
+  .grocerylabel .text-wrapper {
+	position: fixed;
+	width: 483px;
+	top: 302px;
+	left: 387px;
+	font-family: "Spartan-Bold", Helvetica;
+	font-weight: 700;
+	color: #616042;
+	font-size: 71px;
+	text-align: center;
+	letter-spacing: 0;
+	line-height: normal;
+  }
+
+
+  /* CSS for list */
+  .listlabel {
+	width: 234px;
+	height: 185px;
+  }
+  
+  .listlabel .veggie-veggie {
+	position: fixed;
+	width: 234px;
+	top:410px;
+	left: 450px;
+	font-family: "Spartan-Bold", Helvetica;
+	font-weight: 700;
+	color: #616042;
+	font-size: 43px;
+	letter-spacing: 0;
+	line-height: normal;
+  }
+
+/* CSS for total */
+  .totallabel {
+	width: 162px;
+	height: 62px;
+  }
+  
+  .totallabel .total {
+	position: fixed;
+	width: 162px;
+	top: 487px;
+	left: 108px;
+	font-family: "Spartan-Bold", Helvetica;
+	font-weight: 700;
+	color: #616042;
+	font-size: 53px;
+	letter-spacing: 0;
+	line-height: normal;
+  }
+
+
+
+
+
+
+
+
+
+  
+
+
+}
+
+
+/* CSS for tree 
+
+.image {
+	width: 169px;
+	height: 218px;
+  }
+  
+  .image .tree-icon {
+	position: fixed;
+	width: 200px;
+	height: 205px;
+	top: 25px;
+	left: 575px;
+	object-fit: cover;
+  }*/
